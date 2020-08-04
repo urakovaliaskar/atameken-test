@@ -21,18 +21,14 @@ DB_PASSWORD=
 
 ### Setup
 
-> install composer packages first
+> do neccessary installation commands
 
 ```shell
 $ composer install
-```
-
-> migration and seeding, passport
-
-```shell
 $ php artisan migrate:fresh
 $ php artisan db:seed
 $ php artisan passport:install
+$ php artisan key:generate
 ```
 > currency refresh command, runs daily
 
