@@ -42,7 +42,7 @@ $ php artisan refresh:currency
 
 ## Requesting
 
-Header должен иметь Authorization: 'Bearer yourtoken' и Accept: application/json. Чтобы получить токен нужно авторизоваться с телом указанным ниже на роут `http://127.0.0.1:8000/api/login`
+Header должен иметь Authorization: 'Bearer yourtoken' и Accept: application/json. Чтобы получить токен нужно авторизоваться с телом указанным ниже на роут `http://127.0.0.1:8000/api/login`, через Post запрос.
 
 ```javascript
 {
