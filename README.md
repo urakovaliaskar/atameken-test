@@ -52,4 +52,4 @@ Header должен иметь Authorization: 'Bearer yourtoken' и Accept: appl
 ```
 ## Api
 - Get request `http://127.0.0.1:8000/api/currencies`, optional query 'date' (04.08.20)
-- Get request `http://127.0.0.1:8000/api/currencies`, required query 'name' (AUD), optional query 'date' (04.08.20)
+- Get request `http://127.0.0.1:8000/api/currency`, required query 'name' (AUD), optional query 'date' (04.08.20)
