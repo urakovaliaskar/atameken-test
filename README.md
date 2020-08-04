@@ -21,13 +21,13 @@ DB_PASSWORD=
 
 ### Setup
 
-> update and install composer packages first
+> install composer packages first
 
 ```shell
 $ composer install
 ```
 
-> migration and seeding
+> migration and seeding, passport
 
 ```shell
 $ php artisan migrate:fresh
